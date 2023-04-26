@@ -6,10 +6,15 @@ This is a web-based Trivia Game that allows users to answer multiple-choice ques
 # Features:
 
 Randomly generated questions from various categories and difficulty levels
+
 Multiple-choice answers sorted randomly
+
 Real-time feedback on correct and incorrect answers
+
 Scorekeeping
+
 Next-question button to load a new question
+
 Responsive design for mobile and desktop devices
 
 # Installation:
