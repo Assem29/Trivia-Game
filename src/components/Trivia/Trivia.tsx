@@ -67,6 +67,7 @@ function TriviaGame() {
                 placeholder="Enter your answer here"
                 value={userAnswer}
                 onChange={(event) => setUserAnswer(event.target.value)}
+                required 
               />
             </label>
             <button type="submit">Submit</button>
