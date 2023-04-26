@@ -3,7 +3,7 @@
 # Description:
 This is a web-based Trivia Game that allows users to answer multiple-choice questions and get immediate feedback on their answers. The game is built with React and uses the Open Trivia Database API to fetch questions and answers.
 
-Features:
+# Features:
 
 Randomly generated questions from various categories and difficulty levels
 Multiple-choice answers sorted randomly
@@ -11,7 +11,8 @@ Real-time feedback on correct and incorrect answers
 Scorekeeping
 Next-question button to load a new question
 Responsive design for mobile and desktop devices
-Installation:
+
+# Installation:
 
 Clone the repository from GitHub
 Install the dependencies using npm install
