@@ -1,0 +1,130 @@
+.TriviaGame {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #5f9ea0;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .score-container {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  .score-label {
+    margin-right: 0.5rem;
+  }
+  
+  .score-value {
+    font-weight: bold;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .question-container {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f8f8f8;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  form {
+    margin-top: 1rem;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type='text'] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type='text']:hover,
+  input[type='text']:focus {
+    outline: none;
+    border-color: #5f9ea0;
+  }
+  
+  button[type='submit'] {
+    font-size: 1.2rem;
+    background-color: #5f9ea0;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #468284;
+  }
+  
+  .correct-message {
+    color: #5f9ea0;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .correct-message.hide {
+    opacity: 0;
+  }
+  
+  footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .next-question {
+    font-size: 1.2rem;
+    background-color: #468284;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .next-question:hover {
+    background-color: #5f9ea0;
+  }
+  
+
+   
+  
