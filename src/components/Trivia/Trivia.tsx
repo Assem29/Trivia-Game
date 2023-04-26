@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Trivia.css';
+import { TriviaData } from '../types';
 
-interface TriviaData {
-  question: string;
-  correct_answer: string;
-  answers: string[];
-}
 
 function TriviaGame() {
   const [triviaData, setTriviaData] = useState<TriviaData>();
